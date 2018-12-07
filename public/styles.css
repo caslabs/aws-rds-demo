@@ -1,0 +1,15 @@
+#boxForm {
+    margin-left:10%;
+    width:500px;
+}
+
+#studentList {
+    width:500px;
+    height:auto;
+    border: 3px black solid;
+}
+
+#container {
+    display:flex;
+    flex-direction:row;
+}

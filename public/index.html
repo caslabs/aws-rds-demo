@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POSTGRESQL TEST AWS</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="studentList">
+            <h1>Student List</h1>
+            <p id="studentID"></p>
+        </div>
+        <div id="boxForm">
+            <form>
+                <fieldset>
+                    <legend>Personal information:</legend>
+                    First name:<br>
+                    <input id="namePOST" type="text" name="firstname"><br>
+                    Grade Level:<br>
+                    <input id="gradePOST" type="text" />
+                </fieldset>
+            </form>
+            <input id="postBtn" type="submit" value="Submit">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
